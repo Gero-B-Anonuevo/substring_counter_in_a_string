@@ -8,4 +8,4 @@ find_string = tk.simpledialog.askstring("Hello", "What do you want to find? ")
 #use .count() function
 count = string_var.count(find_string)
 #print result
-print(count)
+print(find_string," appeared ",count, " times.")
